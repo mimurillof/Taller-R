@@ -1,0 +1,5 @@
+"0","ggplot(data = evals, aes(x = bty_avg, y = score)) +"
+"0","  geom_jitter(width = 0.1, height = 0.05, alpha = 0.6) +"
+"0","  geom_smooth(method = ""lm"", se = FALSE) +"
+"0","  labs(title = ""Score vs bty_avg (jitter)"")"
+"0",""

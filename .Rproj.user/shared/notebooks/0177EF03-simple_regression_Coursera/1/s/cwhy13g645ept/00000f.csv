@@ -1,0 +1,5 @@
+"0","ggplot(data = mlb11, aes(x = at_bats, y = runs)) +"
+"0","  geom_point() +"
+"0","  geom_smooth(method = ""lm"", se = FALSE) +"
+"0","  labs(x = ""At bats"", y = ""Runs"", title = ""Runs vs At bats"")"
+"0",""

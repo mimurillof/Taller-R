@@ -1,0 +1,3 @@
+"0","# Gráficos de traza para parámetros Beta"
+"0","plot(posterior_samples[, grep(""beta"", varnames(posterior_samples))], "
+"0","     main = ""Gráficos de Traza para Parámetros Beta"")"

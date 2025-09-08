@@ -1,0 +1,5 @@
+"0","## Ejemplo 1: relación numérica-numérica"
+"0","ggplot(evals, aes(x = cls_students, y = cls_perc_eval)) +"
+"0","  geom_point(alpha = 0.6) +"
+"0","  geom_smooth(method = ""lm"", se = FALSE) +"
+"0","  labs(x = ""Número de estudiantes"", y = ""% completaron evaluación"", title = ""cls_students vs cls_perc_eval"")"

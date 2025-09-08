@@ -1,0 +1,5 @@
+"0","## Elegí ""hits"" como predictor alternativo y muestro gráfico y modelo"
+"0","ggplot(data = mlb11, aes(x = hits, y = runs)) +"
+"0","  geom_point() +"
+"0","  geom_smooth(method = ""lm"", se = FALSE) +"
+"0","  labs(x = ""Hits"", y = ""Runs"", title = ""Runs vs Hits"")"

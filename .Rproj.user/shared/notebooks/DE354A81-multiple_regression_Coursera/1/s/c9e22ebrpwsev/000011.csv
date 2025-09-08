@@ -1,0 +1,6 @@
+"0",""
+"0","cat('\nMejor remoción (mayor incremento en adjusted R^2):\n')"
+"1","
+Mejor remoción (mayor incremento en adjusted R^2):
+"
+"0","print(head(adj_df,1))"

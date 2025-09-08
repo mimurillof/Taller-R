@@ -1,0 +1,1 @@
+"0","m1 <- lm(runs ~ at_bats, data = mlb11)"

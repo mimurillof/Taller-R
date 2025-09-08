@@ -1,0 +1,3 @@
+"0","ggplot(data = mlb11, aes(x = at_bats, y = runs)) +"
+"0","  geom_point() +"
+"0","  stat_smooth(method = ""lm"", se = FALSE)"

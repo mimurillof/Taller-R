@@ -1,0 +1,6 @@
+"0",""
+"0","## Ejemplo 2: categórica vs numérica"
+"0","ggplot(evals, aes(x = rank, y = score)) +"
+"0","  geom_boxplot() +"
+"0","  labs(title = ""Distribución de score por rank"")"
+"0",""

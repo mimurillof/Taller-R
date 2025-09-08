@@ -1,0 +1,8 @@
+"0","vars <- c(""at_bats"", ""hits"", ""homeruns"", ""batting_avg"", ""strikeouts"", ""stolen_bases"", ""wins"")"
+"0","r2s <- sapply(vars, function(v){"
+"0","  f <- as.formula(paste(""runs ~"", v))"
+"0","  summary(lm(f, data = mlb11))$r.squared"
+"0","})"
+"2","Error en h(simpleError(msg, call)): 
+  error al evaluar el argumento 'object' al seleccionar un método para la función 'summary': objeto 'batting_avg' no encontrado
+"
